@@ -6,20 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel='stylesheet' href="./images/style.css">
+    <script defer src="./todo.js"></script>
 </head>
-<body>
+<body class="body">
     <header>
         <div id="parent">
             TODO LIST
         </div>
         <div id="box">
-            <div class="child">
-
+            <div>
+                <input class="child" type="button">
             </div>
         </div>
         <div id="task">
-            <div> Add a task to the list....</div>
-            <div>+</div>
+            <div><input id="input"type="text"/></div>
+            <button id="plus">+</button>
+        </div>
+        <div id="topper">
+            <div id="enter">
+                <div> items</div>
+                <div>All</div>
+                <div>pending</div>
+                <div>completed</div>
+                <div  role="button" id="clear">clear</div>
+            </div>
+            <div id="newvalue">
+
+            </div>
         </div>
     </header>
     <footer>
